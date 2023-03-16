@@ -1,0 +1,293 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 0%, #0088AA 110%);
+ 	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', Sans-serif, Arial;
+} 
+
+a {
+	text-decoration: none;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 70%;
+	margin: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.tarjeta{
+	background: #FCFCFC;
+	/*background-image: url(https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Ffondo-css.jpg?alt=media&token=7856fee5-ba11-47a6-be79-98eef452b33f);*/
+	margin: 40px 0;
+	border-radius: 8px;
+	overflow: hidden;
+	z-index: 1000;
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.profite-photo{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 90%;
+	border-radius: 30px;
+}
+
+.statico{
+	position: fixed;
+	width: 20%;
+}
+
+.img_herramientas{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: stretch;
+	flex-direction: row;
+	align-content: stretch;
+	padding: 30px;
+}
+
+.img_herramienta {
+	
+	cursor: pointer;
+	height: 50px;
+	margin: 20px;
+	border-radius: 10px;
+	background: #e0e0e0;
+	box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+	transition: 1500ms all;
+}
+
+.img_herramienta:hover {
+	cursor: pointer;
+	border-radius: 10px;
+	background: linear-gradient(145deg, #cacaca, #f0f0f0);
+	box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+	transform: scale(1);
+}
+
+/* Slider Banner */
+.slider_banner{
+	overflow: hidden;
+	z-index: 1000;
+	width: 100%;
+	position: relative;
+}
+
+.slider_banner .banner{
+	position: relative;
+	width: 100%;
+}
+
+.slider_banner .banner img{
+	vertical-align: top;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%
+}
+
+.slider_banner .flecha-banner{
+	font-size: 35px;
+	line-height: 35px;
+	color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 50%;
+	z-index: 1100
+}
+
+.slider_banner .flecha-banner:hover{
+	color: rgba(0,0,0,.7);
+}
+
+.slider_banner .anterior{
+	left: 10px;
+}
+
+.slider_banner .siguiente{
+	right: 10px;
+}
+/* ---------  slider info ------------- */
+.slider_info{
+	text-align: center;
+	overflow: hidden;
+	padding: 15px 0;
+	z-index: 1000;
+	position: relative;
+}
+/*---------- seccion info ------------- */
+.slider_info .info_section{
+	width: 100%;
+
+}
+.slider_info .info article{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.slider_info .info_section article .slide{
+	background: #fff;
+	width: 100%;
+	left: 100%;
+	position: absolute;
+	padding: 15px 80px;
+}
+.slider_info .flecha-info{
+	font-size: 35px;
+	line-height: 35px;
+	color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 50%;
+	z-index: 1100
+}
+
+.slider_info .flecha-info:hover{
+	color: rgba(0,0,0,.7);
+}
+
+.slider_info .anterior{
+	left: 10px;
+}
+
+.slider_info .siguiente{
+	right: 10px;
+}
+
+/* -------- Estilo para los sliders de Info ------ */
+.slider_info .info_section .nombre{
+	color: #FCFCFC;
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+.slider_info .info_section .info_article .slider_info_1 .trabajo{
+	color: #56acbb;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+.slider_info_1{
+	color: #6baa11
+}
+.slider_info .info_section .pais{
+	color: #8c8c8c;
+	font-size: 14px;
+	line-height: 14px;
+}
+.slider_info .info_section .pais img{
+	position: relative;
+	top: 2px;
+	margin-right: 10px;
+}
+
+
+/* Slider info */
+.presentation {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.flag-image {
+	width: 45px;
+}
+
+
+/* Botones del Slider info */
+.tarjeta .botones {
+	width: 100%;
+}
+.tarjeta .botones span{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50%;
+	background: #aaeeff;
+	text-align: center;
+}
+.tarjeta .botones .active{
+	background: #00ccdd;
+}
+
+/* Redes sociales */
+.redes-sociales {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+
+} 
+
+.redes-sociales a {
+	display:  inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 20px;
+	padding: 14px 0;
+	color: #FFFFFF;
+	border-radius: 50%;
+	margin: 10px 10px;
+}
+.redes-sociales .twitter:hover{
+	background: #0099F5;
+}
+.redes-sociales .platzi:hover{
+	background: #FFFFFF;
+}
+
+.socialmedia img {
+	width: 50px;
+	height: 50px;
+}
+
+.card{
+	margin-top: 20px; 
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.container-pdf{
+	width: 100%;
+	height: 95%;
+}
+.pdf{
+	width: 100%;
+	height: 90%;
+}
+/* Configuracion  perfecta en pantalla grande */
+/*
+.container-pdf{
+	width: 100%;
+	height: 95%;
+}
+.pdf{
+	width: 100%;
+	height: 90%;
+}
+*/
+
+/* clase padre del boton para agrandar el PDF*/
+.ndfHFb-c4YZDc-LgbsSe{
+	background: FF0000;
+}
+/* clase hija*/
+.ndfHFb-c4YZDc-DH6Rkf-Bz112c{
+	background: 00FF00;
+}
