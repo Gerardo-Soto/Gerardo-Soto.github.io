@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<title>Profile | Gerardo</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./estilos.css">
@@ -18,7 +17,7 @@
 					<p>Ing. Gerardo Alberto Soto Alvarez del Castillo.</p>
 					<p>I am living in <img class="flag-image" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fbandera_mexico.png?alt=media&token=ba816ef7-0a8d-45be-84b0-6ed8642feea0" alt="flag of mexico" /> M&eacute;xico, Puebla.</p>
 					<p class="profile--age" id="profileAge"> </p>
-					<p>My Goal is........</p>
+					<p class="my_goal">My goal is to master the tools of technology and software creation that companies use to solve problems and create quality products with the support of a team and to help the people who use it.</p>
 				</section>
 				<section class="tarjeta redes-sociales ">
 					<h3>Social media</h3>
@@ -38,22 +37,52 @@
 								<div class="container">
 									<div class="row">
 										<div class="col-12 img_herramientas">
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-bash">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGnu-bash_Logo.png?alt=media&token=9c6deca9-bb51-4091-9e89-66f384aec04f" alt="Bash logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-git">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGit_Logo.png?alt=media&token=60f76f12-1b40-4613-924a-c89cd77b465e"  alt="Git logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-gitlab">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGitLab_Logo.png?alt=media&token=c3904392-9107-4479-8a82-cc87e7b6196f"  alt="GitLab logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-github">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fgithub-logo.png?alt=media&token=cbe2d2ab-4dc6-467a-9597-b47c8ae11987"  alt="GitHub logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-js">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FJS_Logo.png?alt=media&token=4a75cc58-2ff6-4a78-b56b-7d3eee1b04aa"  alt="javascript logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-node">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fnodejs_logo.png?alt=media&token=a6bc851d-405a-43dc-9539-f8ebb9d6326d"  alt="Node JS logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-python">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FPython_Logo.png?alt=media&token=137907a5-26ed-46c3-ad26-9f5d0bd5c237" alt="Python logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-django">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDjango_Logo.png?alt=media&token=d93fe041-aa5e-4f8a-aaae-4e63ba71db21" alt="Django logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-nginx">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FNGINX_Logo.png?alt=media&token=1034d860-7138-426a-84ce-58ec666e2424" alt="Nginx logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-jenkins">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FJenkins_Logo.png?alt=media&token=1967faff-9328-44fe-88bb-d204d935a6d5" alt="Jenkins logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-linux">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FLinux_Logo.png?alt=media&token=0e1f0947-742f-456f-8719-35f7e4d15a5a" alt="Linux logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-aws">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FAWS_Logo.png?alt=media&token=51443507-8689-4916-84cc-a4b1c6f060aa" alt="AWS logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-digital-ocean">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDigitalOcean_Logo.png?alt=media&token=f14a55a5-d62c-4a12-98b9-da3c3ac837b6" alt="Digital Ocean logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-docker">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDocker_Logo.png?alt=media&token=06adf1ab-0b03-4b92-8ba6-7cf31e6369b6" alt="Docker Logo" />
+											</button>
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-new-relic">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fnew_relic_logo.png?alt=media&token=24ee4384-1dc4-47a6-8532-ea8fae5ee8da" alt="New Relic logo">
+											</button>
 
-										    <img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGnu-bash_Logo.png?alt=media&token=9c6deca9-bb51-4091-9e89-66f384aec04f" alt="Bash logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGit_Logo.png?alt=media&token=60f76f12-1b40-4613-924a-c89cd77b465e"  alt="Git logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FGitLab_Logo.png?alt=media&token=c3904392-9107-4479-8a82-cc87e7b6196f"  alt="GitLab logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fgithub-logo.png?alt=media&token=cbe2d2ab-4dc6-467a-9597-b47c8ae11987"  alt="GitHub logo" />
-							    			<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FJS_Logo.png?alt=media&token=4a75cc58-2ff6-4a78-b56b-7d3eee1b04aa"  alt="javascript logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fnodejs_logo.png?alt=media&token=a6bc851d-405a-43dc-9539-f8ebb9d6326d"  alt="Node JS logo" />
-										    <img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FPython_Logo.png?alt=media&token=137907a5-26ed-46c3-ad26-9f5d0bd5c237" alt="Python logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDjango_Logo.png?alt=media&token=d93fe041-aa5e-4f8a-aaae-4e63ba71db21" alt="Django logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FNGINX_Logo.png?alt=media&token=1034d860-7138-426a-84ce-58ec666e2424" alt="Nginx logo" />
-							    			<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FJenkins_Logo.png?alt=media&token=1967faff-9328-44fe-88bb-d204d935a6d5" alt="Jenkins logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FLinux_Logo.png?alt=media&token=0e1f0947-742f-456f-8719-35f7e4d15a5a" alt="Linux logo" />
-							    			<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FAWS_Logo.png?alt=media&token=51443507-8689-4916-84cc-a4b1c6f060aa" alt="AWS logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDigitalOcean_Logo.png?alt=media&token=f14a55a5-d62c-4a12-98b9-da3c3ac837b6" alt="Digital Ocean logo" />
-							    			<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FDocker_Logo.png?alt=media&token=06adf1ab-0b03-4b92-8ba6-7cf31e6369b6" alt="Docker Logo" />
-											<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fnew_relic_logo.png?alt=media&token=24ee4384-1dc4-47a6-8532-ea8fae5ee8da" alt="New Relic logo">
 										</div>
 									</div>
 								</div>
@@ -118,7 +147,7 @@
 								<div class="card">
 									<div class="card-body">
 										<h5 class="card-title">XMPP server for messaging</h5>
-										<p class="card-text">This project is a messaging system for mobile devices and computers that are connected to a LAN network in a controlled environment..</p>
+										<p class="card-text">This project is a messaging system for mobile devices and computers that are connected to a LAN network in a controlled environment.</p>
 										<!-- Button trigger modal -->
 										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xmppServer">
 											More information
@@ -130,7 +159,7 @@
 								<div class="card">
 									<div class="card-body">
 										<h5 class="card-title">Cinema vs Stream</h5>
-										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+										<p class="card-text">This is a Web application in JavaScript to compare the cost of going to the cinema against our subscriptions to streaming applications.</p>
 										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cinema-vs-stream">
 											More information
 										</button>
@@ -140,17 +169,22 @@
 							<div class="col mb-4">
 								<div class="card">
 									<div class="card-body">
-									<h5 class="card-title">nodejs platzivideo/github</h5>
-									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-									<a href="#" class="btn btn-primary">Go somewhere</a>
+										<h5 class="card-title">JavaScript Challenges</h5>
+										<p class="card-text">programming challenges posted on the LeetCode website for the community to improve logic and optimization for problem solving.</p>
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#js-challenge">
+											More information
+										</button>
+									</div>
 								</div>
 							</div>
 							<div class="col mb-4">
 								<div class="card">
 									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-										<a href="#" class="btn btn-primary">Go somewhere</a>
+										<h5 class="card-title">Python Challenges</h5>
+										<p class="card-text">programming challenges posted on the LeetCode website for the community to improve logic and optimization for problem solving.</p>
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#python-challenge">
+											More information
+										</button>
 									</div>
 								</div>
 							</div>
@@ -159,19 +193,340 @@
 				</section>
 				<section class="tarjeta">
 					<div>
-						<h3>Certificaciones</h3>
+						<h3>Certifications</h3>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
 
-<!-- Modal -->
+<!-- Modal [Icons] -->
 
+<div class="modal fade" id="icon-bash" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>With Bash, I have the ability to do:</p>
+				<li>Bash programming.</li>
+				<li>Capture local information entered by the user.</li>
+				<li>Use the conditional statements of a logical response.</li>
+				<li>Create and call functions.</li>
+				<li>Manage files and folders.</li>
+				<li>Handle storage packaging commands.</li>
+				<li>Automate tasks on the server.</li>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-git" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>With Git, I have the ability to do:</p>
+				<li>Keep version control on projects.</li>
+				<li>Work collaboratively in a team.</li>
+				<li>Use custom domains with GitHub Pages.</li>
+				<li>Apply a professional workflow to projects.</li>
+				<li>Work with multiple work environments.</li>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="icon-gitlab" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>With GitLab, I have the ability to do:</p>
+				<li>Use git to manage projects in GitLab.</li>
+				<li>Create a professional software development workflow.</li>
+				<li>Automate process using Continuous Integration (CI).</li>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-github" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>With Git, I have the ability to do:</p>
+				<li>Keep version control on projects.</li>
+				<li>Work collaboratively in a team.</li>
+				<li>Use custom domains with GitHub Pages.</li>
+				<li>Apply a professional workflow to projects.</li>
+				<li>Work with multiple work environments.</li>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-js" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>With JavaScript, I have the ability to do:</p>
+				<li>Understand the use cases for asynchronism structures to develop solutions using: callbacks, promises and Asyc/await.</li>
+				<li>Understand the interaction of JS and Web browser to avoid Hoisting</li>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-node" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-python" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-django" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-nginx" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-jenkins" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-linux" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-aws" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-digital-ocean" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-docker" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="icon-new-relic" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Acquired skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Modal body text goes here.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal [More information] -->
 
 <div class="modal fade bd-example-modal-lg " id="monitoringWithNewRelic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">New Relic</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -181,14 +536,14 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-6 ">
-							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="https://docs.google.com/viewer?srcid=1IXrlJAKJO3WDnAHtCsw481NFGxeW13jo&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>
-								New Relic
-							</li>
+							<li>New Relic</li>
+							<p>Notes: <a href="https://drive.google.com/file/d/1C2fq2XQ7LoGP-rcK2o27e-qB8IRJJ-b2/view?usp=share_link" target="_blank">Google Drive</a></p>
+							<p>Documentation: <a href="https://docs.newrelic.com/introduction-apm/" target="_blank" rel="noopener noreferrer">newrelic.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -202,8 +557,8 @@
 
 
 <div class="modal fade bd-example-modal-lg " id="accessPoint" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">Access point</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -213,16 +568,17 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-6 ">
-							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="https://docs.google.com/viewer?srcid=1ZahFJ06_3Vofb756Av4559vn2G3TD6MY&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
 							<li>Raspberry Pi 3b</li>
 							<li>Ubuntu Debian</li>
 							<li>DHCP</li>
 							<li>APserver</li>
-							<p>Documentation: link</p>
+							<p>Notes: <a href="https://drive.google.com/file/d/1ZahFJ06_3Vofb756Av4559vn2G3TD6MY/view?usp=share_link" target="_blank" >Google Drive</a></p>
+							<p>Documentation: <a target="_blank" href="https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all">sparkfun</a></p>
 						</div>
 					</div>
 				</div>
@@ -236,8 +592,8 @@
 
 
 <div class="modal fade bd-example-modal-lg " id="apiExpressK6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">API with Express and K6</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -247,15 +603,18 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-6 ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
 							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
 							<li>Node.js</li>
+							<li>Express.js</li>
 							<li>MySQL</li>
 							<li>Tokens</li>
+							<li>Insomnia (API development platform)</li>
 							<li>K6 performance testing</li>
+							<p>Notes: <a href="#" target="_blank" rel="noopener noreferrer">Drive</a></p>
 							<p>Documentation: link</p>
 						</div>
 					</div>
@@ -270,8 +629,8 @@
 
 
 <div class="modal fade bd-example-modal-lg " id="py-nstagram" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">Py-nstagram</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -281,17 +640,18 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-6 ">
-							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="https://docs.google.com/viewer?srcid=1qLvTrYsKdAKcs8fxpJifxmvU3G6z-G92&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
 							<li>Python 3</li>
 							<li>Django</li>
 							<li>GitHub</li>
 							<li>ORM</li>
 							<li>MTV</li>
-							<p>Documentation: link</p>
+							<p>Notes: <a href="https://drive.google.com/file/d/19ODWYtMcisXSkdh_2NtE7fe8EDJ5bWRN/view?usp=share_link" target="_blank">Google Drive</a></p>
+							<p>Documentation: <a href="https://docs.djangoproject.com/en/2.2/" target="_blank">docs.djangoproject.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -306,10 +666,10 @@
 
 
 <div class="modal fade bd-example-modal-lg " id="xmppServer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">XMPP Server</h5>
+				<h5 class="modal-title" id="exampleModalLabel">JavaScript Challenges</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -317,14 +677,16 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-6 ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
 							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>Linux</li>
-							<li>XMPP</li>
-							<p>Documentation: link</p>
+							<li>JavaScript</li>
+							<li>GitHub</li>
+							<li>Mocha</li>
+							<li>LeetCode</li>
+							<p>Documentation: <a href="" target="_blank" rel="noopener noreferrer">github.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -338,8 +700,8 @@
 
 
 <div class="modal fade bd-example-modal-lg " id="cinema-vs-stream" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg container-pdf" role="document"> <!-- Si afecto el tamaño -->
-		<div class="modal-content container-pdf"> <!-- aqui también -->
+	<div class="modal-dialog modal-lg container-pdf" role="document"> 
+		<div class="modal-content container-pdf">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">Cinema vs Stream</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -349,17 +711,18 @@
 			<div class="modal-body container-pdf">
 				<div class="container pdf">
 					<div class="row ">
-						<div class="col-sm-8 ">
-							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="" width="100%" height="500px"></iframe>
 						</div>
-						<div class="col-sm-4">
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
 							<li>GitHub</li>
-							<li>HTML:5</li>
-							<li>CSS (BLEM)</li>
+							<li>HTML</li>
+							<li>CSS</li>
 							<li>JavaScript</li>
-							<p>Documentation: link</p>
-							<a href="https://gerardo-soto.github.io/cinema-vs-streaming/" class="socialmedia" target="_blank"><button class="btn btn-secondary">Go to project</button></a>
+							<p>Documentation: github</p>
+
+							<a href="https://gerardo-soto.github.io/cinema-vs-streaming/" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
 						</div>
 					</div>
 				</div>
@@ -371,6 +734,77 @@
 	</div>
 </div>
 
+
+<div class="modal fade bd-example-modal-lg " id="js-challenge" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg container-pdf" role="document"> 
+		<div class="modal-content container-pdf">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">JavaScript Challenges</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body container-pdf">
+				<div class="container pdf">
+					<div class="row ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="" width="100%" height="500px"></iframe>
+						</div>
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
+							<h3>Tools used</h3>
+							<li>GitHub</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>LeetCode</li>
+							<p>Documentation: <a href="https://github.com/Gerardo-Soto/js-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
+
+							<a href="#" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade bd-example-modal-lg " id="python-challenge" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg container-pdf" role="document"> 
+		<div class="modal-content container-pdf">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Python Challenges</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body container-pdf">
+				<div class="container pdf">
+					<div class="row ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="" width="100%" height="500px"></iframe>
+						</div>
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
+							<h3>Tools used</h3>
+							<li>GitHub</li>
+							<li>Python</li>
+							<li>LeetCode</li>
+							<p>Documentation: <a href="https://github.com/Gerardo-Soto/python-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 

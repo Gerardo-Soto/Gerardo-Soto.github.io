@@ -39,11 +39,19 @@ a {
 	padding-top: 10px;
 }
 
+.question-mark{
+	width: 20px;
+}
+
 .profite-photo{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 90%;
 	border-radius: 30px;
+}
+
+.my_goal{
+	text-align: justify;
 }
 
 .statico{
@@ -59,6 +67,11 @@ a {
 	flex-direction: row;
 	align-content: stretch;
 	padding: 30px;
+}
+
+.btn-icon {
+	margin: auto;
+	padding: auto;
 }
 
 .img_herramienta {
@@ -293,6 +306,6 @@ a {
 }
 
 li {
-	list-style-image: url('https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Flist_icon.png?alt=media&token=07a47845-8293-4cb6-b6a8-6935c71c566a');
+	list-style-image: url('https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Flist-icon.png?alt=media&token=146fb24a-0246-4baa-98b5-cce64d33c2f8');
 	padding-top: 5px;
 }
