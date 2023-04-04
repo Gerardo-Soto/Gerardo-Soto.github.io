@@ -309,3 +309,7 @@ li {
 	list-style-image: url('https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Flist-icon.png?alt=media&token=146fb24a-0246-4baa-98b5-cce64d33c2f8');
 	padding-top: 5px;
 }
+
+.documentation {
+	margin-top: 50px;
+}

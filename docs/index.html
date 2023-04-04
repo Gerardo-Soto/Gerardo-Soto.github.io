@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Profile | Gerardo</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./estilos.css">
 	<link rel="stylesheet" type="text/css" href="./bootstrap.css">
 	<link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fpersonal%2Fname_letter.png?alt=media&token=e3a00fca-5eb9-409e-8d9c-b1571bf6c081" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Profile | Gerardo</title>
 </head>
 <body>
 	<div class="container" id="container">
@@ -64,8 +64,8 @@
 											<button type="button" class="btn" data-toggle="modal" data-target="#icon-nginx">
 												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FNGINX_Logo.png?alt=media&token=1034d860-7138-426a-84ce-58ec666e2424" alt="Nginx logo" />
 											</button>
-											<button type="button" class="btn" data-toggle="modal" data-target="#icon-jenkins">
-												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FJenkins_Logo.png?alt=media&token=1967faff-9328-44fe-88bb-d204d935a6d5" alt="Jenkins logo" />
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-travis-ci">
+												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Ftravis-ci-logo.png?alt=media&token=93c54f38-7b9d-479f-8529-4a15dd06952d" alt="Travis CI logo" />
 											</button>
 											<button type="button" class="btn" data-toggle="modal" data-target="#icon-linux">
 												<img class="img_herramienta" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FLinux_Logo.png?alt=media&token=0e1f0947-742f-456f-8719-35f7e4d15a5a" alt="Linux logo" />
@@ -93,6 +93,17 @@
 				<section class="tarjeta">
 					<h3>Projects</h3>
 					<div class="row row-cols-1 row-cols-md-2">
+						<div class="col mb-4">
+							<div class="card card-color">
+								<div class="card-body">
+									<h5 class="card-title">Learning Management System</h5>
+									<p class="card-text">System that allows the administration and adaptation by student of the different evaluation instruments proposed by the professor within the framework of the Institutional Educational Model (MEI) of the IPN.</p>
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lms">
+										More information
+									</button>
+								</div>
+							</div>
+						</div>
 						<div class="col mb-4">
 							<div class="card card-color">
 								<div class="card-body">
@@ -194,6 +205,39 @@
 				<section class="tarjeta">
 					<div>
 						<h3>Certifications</h3>
+						<div class="row row-cols-1 row-cols-md-2">
+							<div class="col mb-4">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">New Relic</h5>
+										<iframe src="https://docs.google.com/viewer?srcid=1JCDjhpc0JHBRvYLq9OJQDDeVbNqdVGaP&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="200px"></iframe>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col mb-4">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">DevOps</h5>
+										<iframe src="https://docs.google.com/viewer?srcid=11NWgGeRbgKav6If-DXBv5Bqt90VqlVQP&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="200px"></iframe>
+									</div>
+								</div>
+							</div><div class="col mb-4">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">AWS Cloud</h5>
+										<iframe src="https://docs.google.com/viewer?srcid=1MK98VddeXrwiuS12l6BlwQk1l6HA7tRl&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="200px"></iframe>
+									</div>
+								</div>
+							</div><div class="col mb-4">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Docker</h5>
+										<iframe src="https://docs.google.com/viewer?srcid=1D5HK2ZLrVSHHUgY9OhyHIVgk4VlvRiuY&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="200px"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 			</div>
@@ -338,6 +382,7 @@
 				<li>Manage the dependencies used with NPM.</li>
 				<li>Use modules to avoid reinventing the wheel.</li>
 				<li>Create applications using the micro-services architecture.</li>
+				<li>Manage micro-services with PM2</li>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -416,7 +461,7 @@
 </div>
 
 
-<div class="modal fade" id="icon-jenkins" tabindex="-1">
+<div class="modal fade" id="icon-travis-ci" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -564,7 +609,45 @@
 	</div>
 </div>
 
-<!-- Modal [More information] -->
+<!-- Modal [icon logos] end -->
+
+<!-- Modal [More information] start -->
+
+<div class="modal fade bd-example-modal-lg " id="lms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Learning Management System</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body container-pdf">
+				<div class="container pdf">
+					<div class="row ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="https://docs.google.com/viewer?srcid=1mRJB8gkovFbw-VIy00ZGxuCX4_26Vff0&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						</div>
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
+							<h3>Tools used</h3>
+							<li>Bootstrap</li>
+							<li>jquery</li>
+							<li>MySQL</li>
+							<li>Nginx</li>
+							<li>Linux/Ubuntu</li>
+
+							<p class="documentation">Documentation: <a href="https://drive.google.com/file/d/1zKDAZNHi1WBU7ewwUyvJ92_kyaGrbSVZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <div class="modal fade bd-example-modal-lg " id="monitoringWithNewRelic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg container-pdf" role="document">
@@ -584,7 +667,8 @@
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
 							<li>New Relic</li>
-							<p>Notes: <a href="https://drive.google.com/file/d/1C2fq2XQ7LoGP-rcK2o27e-qB8IRJJ-b2/view?usp=share_link" target="_blank">Google Drive</a></p>
+							<li>K6.io test</li>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1C2fq2XQ7LoGP-rcK2o27e-qB8IRJJ-b2/view?usp=share_link" target="_blank">Google Drive</a></p>
 							<p>Documentation: <a href="https://docs.newrelic.com/introduction-apm/" target="_blank" rel="noopener noreferrer">newrelic.com</a></p>
 						</div>
 					</div>
@@ -619,8 +703,8 @@
 							<li>Ubuntu Debian</li>
 							<li>DHCP</li>
 							<li>APserver</li>
-							<p>Notes: <a href="https://drive.google.com/file/d/1ZahFJ06_3Vofb756Av4559vn2G3TD6MY/view?usp=share_link" target="_blank" >Google Drive</a></p>
-							<p>Documentation: <a target="_blank" href="https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all">sparkfun</a></p>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1ZahFJ06_3Vofb756Av4559vn2G3TD6MY/view?usp=share_link" target="_blank" >Google Drive</a></p>
+							<p>Documentation: <a target="_blank" href="https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all">sparkfun.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -646,7 +730,7 @@
 				<div class="container pdf">
 					<div class="row ">
 						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
-							<iframe src="https://docs.google.com/viewer?srcid=16x_owN7Da5t16_AID7fMSV_n29PK84m2&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+							<iframe src="https://docs.google.com/viewer?srcid=16BuUP04-T3pG_E0VTTPRUOQHxt0wjtyA&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
@@ -656,8 +740,11 @@
 							<li>Tokens</li>
 							<li>Insomnia (API development platform)</li>
 							<li>K6 performance testing</li>
-							<p>Notes: <a href="#" target="_blank" rel="noopener noreferrer">Drive</a></p>
-							<p>Documentation: link</p>
+							<p class="documentation">Notes: <a href="#" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<p>Documentation:</p>
+							<li><a href="https://expressjs.com/en/4x/api.html" target="_blank" rel="noopener noreferrer">expressjs.com</a></li>
+							<li><a href="https://jwt.io/" target="_blank" rel="noopener noreferrer">jwt.io</a></li>
+							<li><a href="https://k6.io/blog/load-testing-using-github-actions/" target="_blank" rel="noopener noreferrer">k6.io</a></li>
 						</div>
 					</div>
 				</div>
@@ -692,7 +779,7 @@
 							<li>GitHub</li>
 							<li>ORM</li>
 							<li>MTV</li>
-							<p>Notes: <a href="https://drive.google.com/file/d/19ODWYtMcisXSkdh_2NtE7fe8EDJ5bWRN/view?usp=share_link" target="_blank">Google Drive</a></p>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/19ODWYtMcisXSkdh_2NtE7fe8EDJ5bWRN/view?usp=share_link" target="_blank">Google Drive</a></p>
 							<p>Documentation: <a href="https://docs.djangoproject.com/en/2.2/" target="_blank">docs.djangoproject.com</a></p>
 						</div>
 					</div>
@@ -711,7 +798,7 @@
 	<div class="modal-dialog modal-lg container-pdf" role="document">
 		<div class="modal-content container-pdf">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">JavaScript Challenges</h5>
+				<h5 class="modal-title" id="exampleModalLabel">XMPP server for messaging</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -724,11 +811,14 @@
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>JavaScript</li>
-							<li>GitHub</li>
-							<li>Mocha</li>
-							<li>LeetCode</li>
-							<p>Documentation: <a href="" target="_blank" rel="noopener noreferrer">github.com</a></p>
+							<li>Linux</li>
+							<li>Ubuntu server</li>
+							<li>Data base MySQL (phpMyAdmin)</li>
+							<li>Java 5 (JDK 1.5)</li>
+							<li>XAMPP</li>
+							<li>Openfire</li>
+							<li>XMPP</li>
+							<p class="documentation">Documentation: <a href="https://xmpp.org/rfcs/rfc6120.html" target="_blank" rel="noopener noreferrer">xmpp.org</a></p>
 						</div>
 					</div>
 				</div>
@@ -754,7 +844,7 @@
 				<div class="container pdf">
 					<div class="row ">
 						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
-							<iframe src="" width="100%" height="500px"></iframe>
+							<iframe src="https://docs.google.com/viewer?srcid=18nwb-jDZt1ljr7RXS1Fl1uw-ZpKQGyTG&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
@@ -762,7 +852,7 @@
 							<li>HTML</li>
 							<li>CSS</li>
 							<li>JavaScript</li>
-							<p>Documentation: github</p>
+							<p class="documentation">Documentation: <a href="https://github.com/Gerardo-Soto/cinema-vs-streaming" target="_blank" rel="noopener noreferrer">github</a></p>
 
 							<a href="https://gerardo-soto.github.io/cinema-vs-streaming/" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
 						</div>
@@ -799,9 +889,9 @@
 							<li>CSS</li>
 							<li>JavaScript</li>
 							<li>LeetCode</li>
-							<p>Documentation: <a href="https://github.com/Gerardo-Soto/js-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
+							<p class="documentation">Documentation: <a href="https://github.com/Gerardo-Soto/js-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
 
-							<a href="#" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
+							<a href="https://gerardo-soto.github.io/js-challenge/" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
 						</div>
 					</div>
 				</div>
@@ -834,9 +924,7 @@
 							<li>GitHub</li>
 							<li>Python</li>
 							<li>LeetCode</li>
-							<p>Documentation: <a href="https://github.com/Gerardo-Soto/python-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
-
-							
+							<p class="documentation">Documentation: <a href="https://github.com/Gerardo-Soto/python-challenge" target="_blank" rel="noopener noreferrer">github.com</a></p>
 						</div>
 					</div>
 				</div>
