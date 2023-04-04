@@ -92,7 +92,9 @@ a {
 	background: linear-gradient(145deg, #cacaca, #f0f0f0);
 	box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
-	transform: scale(1);
+	
+	transform: scale(1.2);
+	transition: transform 0.1s ease-in-out;
 }
 
 /* Slider Banner */
