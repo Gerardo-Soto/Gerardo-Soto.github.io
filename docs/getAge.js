@@ -50,7 +50,7 @@ let tagProfileAge = document.getElementById('profileAge');
 console.log(tagProfileAge.value);
 const birthday = "1994/08/17 10:30:00";
 
-const age = 'I am '+ getAge(birthday) + ' years old. <span class="question-mark" title="Exact age calculated with JS: '+getAge(birthday)+' years, '+getMonths(birthday)+' months, '+getDays(birthday)+' days"> <img class="question-mark" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fquestion-mark.png?alt=media&token=19d42751-c48a-4b40-8585-db52fe6328f5" alt="question mark to get exact age" /> </span>';
+const age = 'I am '+ getAge(birthday) + ' years old. <span class="question-mark" title="Exact age calculated with JavaScript: '+getAge(birthday)+' years, '+getMonths(birthday)+' months, '+getDays(birthday)+' days"> <img class="question-mark" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Ficons8-plus-48.png?alt=media&token=7a47a9d3-f632-4b31-ac29-6fd100bea48b" alt="plus mark to get exact age" /> </span>';
 
 tagProfileAge.innerHTML = age;
 
