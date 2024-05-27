@@ -119,9 +119,9 @@
 						<div class="col mb-4">
 							<div class="card">
 								<div class="card-body">
-									<h5 class="card-title">Access Point</h5>
-									<p class="card-text">Using a Raspberry pi model 3b, I configured the network system to create an access point using open source tools to share internet and files between connected devices.</p>
-									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accessPoint">
+									<h5 class="card-title">Snap Memories</h5>
+									<p class="card-text">Enjoy your amazing photos on any TV or mobile device to relive those special moments and decorate them with various stunning frames.</p>
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#snapMemories">
 										More information
 									</button>
 								</div>
@@ -133,6 +133,17 @@
 									<h5 class="card-title">API with Express and K6</h5>
 									<p class="card-text">Creation of an API with Node.js using the micro-services architecture to have a scalable and easy to manage application with PM2, and using K6 to do performance testing in the back-end.</p>
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#apiExpressK6">
+										More information
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="col mb-4">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Access Point</h5>
+									<p class="card-text">Using a Raspberry pi model 3b, I configured the network system to create an access point using open source tools to share internet and files between connected devices.</p>
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accessPoint">
 										More information
 									</button>
 								</div>
@@ -681,6 +692,42 @@
 		</div>
 	</div>
 </div>
+
+
+<div class="modal fade bd-example-modal-lg " id="snapMemories" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg container-pdf" role="document">
+		<div class="modal-content container-pdf">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Snap Memories</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body container-pdf">
+				<div class="container pdf">
+					<div class="row ">
+						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
+							<iframe src="https://docs.google.com/viewer?srcid=1Fm-eC58ecdWc6iGUa2vxDZ3cnn3fy8Gr&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="500px"></iframe>
+						</div>
+						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
+							<h3>Tools used</h3>
+							<li>Bootstrap</li>
+							<li>JavaScript</li>
+							<li>CSS</li>
+							<li>Firebase</li>
+							<p class="documentation">Documentation: <a href="https://github.com/Gerardo-Soto/snapMemories" target="_blank">GitHub</a></p>
+							<a href="https://gerardo-soto.github.io/snapMemories/profile/" class="socialmedia" target="_blank"><button class="btn btn-primary">Go to project</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
 <div class="modal fade bd-example-modal-lg " id="accessPoint" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
