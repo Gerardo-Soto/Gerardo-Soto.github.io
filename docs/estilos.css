@@ -315,3 +315,7 @@ li {
 .documentation {
 	margin-top: 50px;
 }
+
+.modal-body li {
+	margin-left: 30px;
+}
