@@ -17,16 +17,7 @@ a {
 	text-decoration: none;
 }
 
-.contenedor{
-	width: 90%;
-	max-width: 70%;
-	margin: auto;
-	height: 100%;
-	display: flex;
-	align-items: center;
-}
-
-.tarjeta{
+.business-card{
 	background: #FCFCFC;
 	/*background-image: url(https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Ffondo-css.jpg?alt=media&token=7856fee5-ba11-47a6-be79-98eef452b33f);*/
 	margin: 40px 0;
@@ -52,6 +43,8 @@ a {
 
 .my_goal{
 	text-align: justify;
+	/*change font size:*/
+	font-size: 20px;
 }
 
 .statico{
@@ -59,7 +52,7 @@ a {
 	width: 20%;
 }
 
-.img_herramientas{
+.img_tools{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -74,7 +67,7 @@ a {
 	padding: auto;
 }
 
-.img_herramienta {
+.img_tool {
 	
 	cursor: pointer;
 	height: 50px;
@@ -86,7 +79,7 @@ a {
 	transition: 1500ms all;
 }
 
-.img_herramienta:hover {
+.img_tool:hover {
 	cursor: pointer;
 	border-radius: 10px;
 	background: linear-gradient(145deg, #cacaca, #f0f0f0);
@@ -138,79 +131,6 @@ a {
 .slider_banner .siguiente{
 	right: 10px;
 }
-/* ---------  slider info ------------- */
-.slider_info{
-	text-align: center;
-	overflow: hidden;
-	padding: 15px 0;
-	z-index: 1000;
-	position: relative;
-}
-/*---------- seccion info ------------- */
-.slider_info .info_section{
-	width: 100%;
-
-}
-.slider_info .info article{
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-}
-.slider_info .info_section article .slide{
-	background: #fff;
-	width: 100%;
-	left: 100%;
-	position: absolute;
-	padding: 15px 80px;
-}
-.slider_info .flecha-info{
-	font-size: 35px;
-	line-height: 35px;
-	color: rgba(0,0,0,.4);
-	position: absolute;
-	top: 50%;
-	z-index: 1100
-}
-
-.slider_info .flecha-info:hover{
-	color: rgba(0,0,0,.7);
-}
-
-.slider_info .anterior{
-	left: 10px;
-}
-
-.slider_info .siguiente{
-	right: 10px;
-}
-
-/* -------- Estilo para los sliders de Info ------ */
-.slider_info .info_section .nombre{
-	color: #FCFCFC;
-	font-size: 38px;
-	line-height: 38px;
-	font-weight: 600;
-	margin-bottom: 16px;
-}
-.slider_info .info_section .info_article .slider_info_1 .trabajo{
-	color: #56acbb;
-	font-size: 18px;
-	line-height: 18px;
-	margin-bottom: 16px;
-}
-.slider_info_1{
-	color: #6baa11
-}
-.slider_info .info_section .pais{
-	color: #8c8c8c;
-	font-size: 14px;
-	line-height: 14px;
-}
-.slider_info .info_section .pais img{
-	position: relative;
-	top: 2px;
-	margin-right: 10px;
-}
 
 
 /* Slider info */
@@ -224,32 +144,16 @@ a {
 }
 
 
-/* Botones del Slider info */
-.tarjeta .botones {
-	width: 100%;
-}
-.tarjeta .botones span{
-	width: 14px;
-	height: 14px;
-	display: inline-block;
-	margin: 0 10px;
-	border-radius: 50%;
-	background: #aaeeff;
-	text-align: center;
-}
-.tarjeta .botones .active{
-	background: #00ccdd;
-}
 
 /* Redes sociales */
-.redes-sociales {
+.social-media {
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
 
 } 
 
-.redes-sociales a {
+.social-media a {
 	display:  inline-block;
 	width: 50px;
 	height: 50px;
@@ -259,14 +163,14 @@ a {
 	border-radius: 50%;
 	margin: 10px 10px;
 }
-.redes-sociales .twitter:hover{
+.social-media .twitter:hover{
 	background: #0099F5;
 }
-.redes-sociales .platzi:hover{
+.social-media .platzi:hover{
 	background: #FFFFFF;
 }
 
-.socialmedia img {
+.social-media img {
 	width: 50px;
 	height: 50px;
 }
@@ -276,6 +180,11 @@ a {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	margin-left: 20px;
+}
+
+.card-text{
+	font-size: 18px;
+	text-align: justify;
 }
 
 .container-pdf{
