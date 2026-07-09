@@ -21,7 +21,7 @@ a {
 	background: #FCFCFC;
 	/*background-image: url(https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Ffondo-css.jpg?alt=media&token=7856fee5-ba11-47a6-be79-98eef452b33f);*/
 	margin: 40px 0;
-	border-radius: 8px;
+	border-radius: 12px;
 	overflow: hidden;
 	z-index: 1000;
 	width: 100%;
