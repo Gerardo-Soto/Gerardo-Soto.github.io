@@ -14,11 +14,11 @@
 			<div class="col-md-3 profile-data" id="col-sm-3">
 				<section class="business-card presentation">
 					<img class="profite-photo" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fpersonal%2Ffoto_perfil_web_personal.png?alt=media&token=306f8141-6e64-4b09-bfa5-2a49e3b4be73" alt="photo" />
-					<p class="my_goal">Eng. Gerardo Alberto Soto Alvarez del Castillo.</p>
+					<p class="my_goal">Eng. Gerardo Alberto <br> Soto <br> Alvarez del Castillo.</p>
 					<p class="my_goal">I am living in CDMX, M&eacute;xico. <img class="flag-image" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fbandera_mexico.png?alt=media&token=ba816ef7-0a8d-45be-84b0-6ed8642feea0" alt="flag of mexico" /></p>
 					<!--<p class="profile--age" id="profileAge"> </p>-->
 					<!--<p class="my_goal">My goal is to master the tools of technology and software creation that companies use to solve problems and create quality products with the support of a team and to help the people who use it.</p>-->
-					<p class="my_goal">Systems Engineer certified in DevOps, Data Analytics, and AWS, with experience in data extraction, transformation, and modeling to generate strategic insights.</p>
+					<p class="my_goal">Systems Engineer certified in DevOps, Data Analytics, and AWS, with experience in backend, data extraction, transformation, and modeling to generate strategic insights.</p>
 
 				</section>
 				<section class="business-card social-media ">
@@ -41,13 +41,13 @@
 									<div class="row">
 										<div class="col-12 img_tools">
 											
-											<button type="button" class="btn" data-toggle="modal" data-target="#icon-new-relic">
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-power-bi">
 												<img class="img_tool" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fpower_bi_logo.png?alt=media&token=3920979c-3f22-43c8-989d-50280f32663a" alt="Power BI logo">
 											</button>
 											<button type="button" class="btn" data-toggle="modal" data-target="#icon-aws">
 												<img class="img_tool" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2FAWS_Logo.png?alt=media&token=51443507-8689-4916-84cc-a4b1c6f060aa" alt="AWS logo" />
 											</button>
-											<button type="button" class="btn" data-toggle="modal" data-target="#icon-new-relic">
+											<button type="button" class="btn" data-toggle="modal" data-target="#icon-mysql">
 												<img class="img_tool" src="https://firebasestorage.googleapis.com/v0/b/platzivideo-gerard.appspot.com/o/profile%2Fmysql_logo.png?alt=media&token=1499146a-dbe3-4e7e-a2f4-a1b056b24587" alt="MySQL logo">
 											</button>
 											<button type="button" class="btn" data-toggle="modal" data-target="#icon-python">
@@ -85,21 +85,11 @@
 				<section class="business-card">
 					<h3>Professional Experience</h3>
 					<div class="row row-cols-1 row-cols-md-2">
-						<div class="col mb-4">
-							<div class="card card-color">
-								<div class="card-body">
-									<h5 class="card-title">Urban mobility and economic productivity</h5>
-									<p class="card-text">How urban mobility (congestion levels, travel times, delays) relates to economic productivity (GDP per capita, unemployment) in major Latin American cities.</p>
-									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#lms">
-										More information
-									</button>
-								</div>
-							</div>
-						</div>
+						
 						<div class="col mb-4">
 							<div class="card">
 								<div class="card-body">
-									<h5 class="card-title">Análisis Comercial y Segmentación de Clientes para el Mercado</h5>
+									<h5 class="card-title">Análisis Comercial y Segmentación del Mercado Inmobiliario entre CDMX y Bogotá</h5>
 									<p class="card-text">Dashboard interactivo para analizar ingresos, canales de venta, segmentación de clientes y retención mediante cohortes utilizando Power BI.</p>
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#t3_p1">
 										More information
@@ -110,7 +100,7 @@
 						<div class="col mb-4">
 							<div class="card">
 								<div class="card-body">
-									<h5 class="card-title">Análisis Financiero y Comercial para RappiPlus (H1 2025)</h5>
+									<h5 class="card-title">Análisis de Rentabilidad y Comportamiento de Clientes para RappiPlus (H1 2025)</h5>
 									<p class="card-text">Dashboard ejecutivo para evaluar ingresos, costos, rentabilidad, campañas de marketing y comportamiento de ventas mediante Power BI.</p>
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#t3_rappi">
 										More information
@@ -124,6 +114,17 @@
 									<h5 class="card-title">Monitoring with New Relic</h5>
 									<p class="card-text">Front-end performance measurement through availability and functionality. Measurement of software response time to obtain customer satisfaction and user simulation testing to pro-actively detect problems.</p>
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#monitoringWithNewRelic">
+										More information
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="col mb-4">
+							<div class="card card-color">
+								<div class="card-body">
+									<h5 class="card-title">Urban mobility and economic productivity</h5>
+									<p class="card-text">How urban mobility (congestion levels, travel times, delays) relates to economic productivity (GDP per capita, unemployment) in major Latin American cities.</p>
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#urban-mobility">
 										More information
 									</button>
 								</div>
@@ -274,24 +275,82 @@
 
 <!-- Modal [Icons] -->
 
+<div class="modal fade" id="icon-power-bi" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Power BI Expertise</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>I use Power BI to transform raw data into clear, actionable insights that support data-driven decision-making.</p>
+				<ul>
+					<li>Design interactive dashboards and KPI monitoring solutions.</li>
+					<li>Transform and model data from multiple sources.</li>
+					<li>Create DAX measures, calculated columns, and Power Query transformations.</li>
+					<li>Analyze trends, patterns, and business performance.</li>
+					<li>Deliver actionable insights through data visualization.</li>
+					<li>Support data-driven decision-making for technical teams and business leaders.</li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="icon-mysql" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">MySQL Expertise</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>I use MySQL to extract, transform, and analyze data, enabling efficient reporting and data-driven business decisions.</p>
+				<ul>
+					<li>Write complex SQL queries using JOINs, CTEs, subqueries, and window functions.</li>
+					<li>Extract and integrate data from multiple relational tables.</li>
+					<li>Clean, validate, and transform datasets for analysis.</li>
+					<li>Optimize queries to improve performance and efficiency.</li>
+					<li>Create views, stored procedures, and reusable SQL scripts.</li>
+					<li>Perform exploratory data analysis to identify trends, patterns, and anomalies.</li>
+					<li>Support ETL workflows and data preparation for Business Intelligence.</li>
+					<li>Generate datasets for dashboards and executive reporting.</li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="modal fade" id="icon-bash" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Bash Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Bash, I have the ability to do:</p>
-				<li>Bash programming.</li>
-				<li>Capture local information entered by the user.</li>
-				<li>Use the conditional statements of a logical response.</li>
-				<li>Create and call functions.</li>
-				<li>Manage files and folders.</li>
-				<li>Handle storage packaging commands.</li>
-				<li>Automate tasks on the server.</li>
+				<p>I use Bash to automate repetitive tasks, manage Linux environments, and streamline data processing workflows.</p>
+				<ul>
+					<li>Develop Bash scripts to automate system administration tasks.</li>
+					<li>Manage files, directories, and permissions in Linux environments.</li>
+					<li>Automate data processing and backup workflows.</li>
+					<li>Monitor system resources and execute scheduled tasks.</li>
+					<li>Use conditional statements, loops, and functions to build reusable scripts.</li>
+					<li>Compress, archive, and transfer files using Linux command-line utilities.</li>
+					<li>Support DevOps, ETL, and cloud-based automation processes.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -299,71 +358,27 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="modal fade" id="icon-git" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With Git, I have the ability to do:</p>
-				<li>Keep version control on projects.</li>
-				<li>Work collaboratively in a team.</li>
-				<li>Use custom domains with GitHub Pages.</li>
-				<li>Apply a professional workflow to projects.</li>
-				<li>Work with multiple work environments.</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="icon-gitlab" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With GitLab, I have the ability to do:</p>
-				<li>Use git to manage projects in GitLab.</li>
-				<li>Create a professional software development workflow.</li>
-				<li>Automate process using Continuous Integration (CI).</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="modal fade" id="icon-github" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">GitHub Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Git, I have the ability to do:</p>
-				<li>Keep version control on projects.</li>
-				<li>Work collaboratively in a team.</li>
-				<li>Use custom domains with GitHub Pages.</li>
-				<li>Apply a professional workflow to projects.</li>
-				<li>Work with multiple work environments.</li>
+				<p>I use GitHub to manage source code, collaborate efficiently, and maintain reliable version control throughout the software development lifecycle.</p>
+				<ul>
+					<li>Manage source code using Git and GitHub version control.</li>
+					<li>Collaborate with development teams through branches, pull requests, and code reviews.</li>
+					<li>Track project history and maintain clean, well-documented repositories.</li>
+					<li>Resolve merge conflicts and manage multiple development branches.</li>
+					<li>Deploy portfolio projects using GitHub Pages with custom domains.</li>
+					<li>Support Agile workflows and continuous project improvement.</li>
+					<li>Maintain reusable, organized, and production-ready codebases.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -371,46 +386,27 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="modal fade" id="icon-js" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With JavaScript, I have the ability to do:</p>
-				<li>Understand the use cases for asynchronism structures to develop solutions using: callbacks, promises and Asyc/await.</li>
-				<li>Understand the interaction of JS and Web browser to avoid Hoisting</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="modal fade" id="icon-node" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Node.js Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Node.js, I have the ability to do:</p>
-				<li>Create our own modules.</li>
-				<li>Manage the dependencies used with NPM.</li>
-				<li>Use modules to avoid reinventing the wheel.</li>
-				<li>Create applications using the micro-services architecture.</li>
-				<li>Manage micro-services with PM2</li>
+				<p>I use Node.js to build scalable backend applications, develop RESTful APIs, and automate server-side processes.</p>
+				<ul>
+					<li>Develop RESTful APIs and backend services using Node.js.</li>
+					<li>Build scalable applications with a microservices architecture.</li>
+					<li>Manage project dependencies with NPM.</li>
+					<li>Create reusable modules and maintain clean, modular code.</li>
+					<li>Deploy and manage applications using PM2.</li>
+					<li>Integrate databases, APIs, and third-party services.</li>
+					<li>Optimize application performance and support backend automation.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -418,23 +414,28 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="modal fade" id="icon-python" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Python Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Python, I have the ability to do:</p>
-				<li>Optimally use data structures, such as: lists, tuples, dictionaries, sets.</li>
-				<li>Reuse software with PIP.</li>
-				<li>Synchronize tests with Selenium.</li>
-				<li>Interact with browser elements and web applications.</li> 
+				<p>I use Python to automate data workflows, perform statistical analysis, and transform raw data into actionable business insights.</p>
+				<ul>
+					<li>Extract, clean, transform, and validate data using Pandas and NumPy.</li>
+					<li>Perform Exploratory Data Analysis (EDA) to identify trends, patterns, and outliers.</li>
+					<li>Create statistical visualizations with Matplotlib and Seaborn.</li>
+					<li>Automate repetitive data processing and reporting tasks.</li>
+					<li>Work with CSV files, APIs, and SQL databases for data integration.</li>
+					<li>Develop ETL workflows using Jupyter Notebook and Python.</li>
+					<li>Apply statistical and mathematical techniques to support business decisions.</li>
+					<li>Write clean, reusable, and well-documented Python code.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -442,69 +443,27 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="modal fade" id="icon-django" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With Django, I have the ability to do:</p>
-				<li>Create a web application with its backend and frontend using the MTV design pattern.</li>
-				<li>Manage the database using migrations.</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<div class="modal fade" id="icon-nginx" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With Nginx, I have the ability to do:</p>
-				<li>Publish static and dynamic web pages.</li>
-				<li>Configure a reverse proxy to distribute backend data traffic across multiple servers.</li>
-				<li>Integration with microservices architecture.</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="modal fade" id="icon-travis-ci" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Travis CI Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Travis CI, I have the ability to do:</p>
-				<li>Synchronize GitHub project with Travis CI and Discord.</li>
-				<li>Identify integration flow with Jenkins.</li>
-				<li>Generate deployment reports.</li>
-				<li>Perform tests on Pull Requests.</li>
-				<li>Perform automated deployments.</li>
+				<p>I use Travis CI to automate software integration, testing, and deployment, ensuring reliable and efficient delivery pipelines.</p>
+				<ul>
+					<li>Configure Continuous Integration (CI) pipelines for GitHub repositories.</li>
+					<li>Automatically build and validate applications on every commit and pull request.</li>
+					<li>Execute automated tests to ensure code quality and deployment readiness.</li>
+					<li>Integrate CI workflows with GitHub and team communication tools.</li>
+					<li>Generate build reports and monitor pipeline execution.</li>
+					<li>Support Continuous Deployment (CD) workflows for faster software delivery.</li>
+					<li>Improve development efficiency through automated validation and deployment.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -512,24 +471,28 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="modal fade" id="icon-linux" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Linux Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Linux, I have the ability to do:</p>
-				<li>Manage groups, users, and permissions in the operating system.</li>
-				<li>Automate tasks with Bash Script and Crontab.</li>
-				<li>Install web services and configure them for production environments.</li>
-				<li>Configure tools to monitor processes and services.</li>
-				<li>Administer packages according to the operating system distribution.</li>
+				<p>I use Linux to administer servers, automate system operations, and maintain secure, reliable, and production-ready environments.</p>
+				<ul>
+					<li>Administer Linux servers, including users, groups, permissions, and file systems.</li>
+					<li>Automate system administration tasks using Bash scripting and Cron jobs.</li>
+					<li>Install, configure, and maintain web services and production environments.</li>
+					<li>Monitor system performance, processes, and services to ensure availability.</li>
+					<li>Manage software packages, repositories, and system updates across Linux distributions.</li>
+					<li>Troubleshoot system, network, and application issues in Linux environments.</li>
+					<li>Configure secure remote access and system permissions following security best practices.</li>
+					<li>Support application deployment and server maintenance for backend services.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -537,24 +500,28 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="modal fade" id="icon-aws" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">AWS Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With AWS, I have the ability to do:</p>
-				<li>Identify services for infrastructure needs.</li>
-				<li>Administer private virtual servers.</li>
-				<li>Use AWS database services and migrations.</li>
-				<li>Migrate web applications to the AWS cloud.</li>
-				<li>Mitigate vulnerabilities with AWS firewall.</li>
+				<p>I use AWS to build secure, scalable, and cost-efficient cloud solutions that support data management, application deployment, and business operations.</p>
+				<ul>
+					<li>Migrate web applications to the AWS cloud.</li>
+					<li>Storing and managing datasets using Amazon S3.</li>
+					<li>Building scalable cloud storage solutions for analytics.</li>
+					<li>Managing backups, versioning, and storage cost optimization.</li>
+					<li>Supporting ETL workflows and cloud-based data pipelines.</li>
+					<li>Configuring secure access with AWS IAM.</li>
+					<li>Enabling reliable and scalable data availability for business analytics.</li>
+					<li>Use AWS database services and migrations.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -562,49 +529,28 @@
 		</div>
 	</div>
 </div>
-
-
-<div class="modal fade" id="icon-digital-ocean" tabindex="-1">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>With Digital Ocean, I have the ability to do:</p>
-				<li>Utilize Digital Ocean's API to manage services.</li>
-				<li>Administer private virtual services.</li>
-				<li>Manage a virtual private network to create a network of virtual servers.</li>
-				<li>Deploy applications on a private server.</li>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="modal fade" id="icon-docker" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">Docker Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With Docker, I have the ability to do:</p>
-				<li>Migrate web applications to container technology.</li>
-				<li>Apply best practices in Docker.</li>
-				<li>Master aspects of security in Docker.</li>
-				<li>Understand the philosophy of working with Docker.</li>
-				<li>Scale projects with Docker Swarm.</li>
-				<li>Expose secure applications.</li>
+				<p>I use Docker to containerize applications, streamline deployments, and build scalable, portable environments for modern software development.</p>
+				<ul>
+					<li>Containerize backend applications and microservices using Docker.</li>
+					<li>Create and manage Docker images with optimized Dockerfiles.</li>
+					<li>Deploy multi-container applications using Docker Compose.</li>
+					<li>Implement container security and networking best practices.</li>
+					<li>Support CI/CD pipelines with containerized deployment workflows.</li>
+					<li>Monitor and troubleshoot containerized applications in production environments.</li>
+					<li>Build portable development environments for consistent application delivery.</li>
+					<li>Scale containerized services using Docker Swarm.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -613,22 +559,26 @@
 	</div>
 </div>
 
-
 <div class="modal fade" id="icon-new-relic" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Acquired skills</h5>
+				<h5 class="modal-title">New Relic Expertise</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body">
-				<p>With New Relic, I have the ability to do:</p>
-				<li>Proactively detect problems</li>
-				<li>Understand application performance</li>
-				<li>Monitor web applications</li>
-				<li>Understand and improve the criteria that Google uses for web application performance</li>
+				<p>I use New Relic to monitor application performance, build interactive observability dashboards, and proactively identify issues before they impact users.</p>
+				<ul>
+					<li>Design interactive dashboards to visualize application health and key performance metrics.</li>
+					<li>Monitor application performance and infrastructure in real time.</li>
+					<li>Identify trends, bottlenecks, and anomalies through performance analytics.</li>
+					<li>Configure alerts to proactively detect incidents and reduce response times.</li>
+					<li>Analyze logs, metrics, and traces to troubleshoot application issues.</li>
+					<li>Transform monitoring data into actionable insights for engineering teams.</li>
+					<li>Improve system reliability, availability, and operational efficiency through observability.</li>
+				</ul>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -645,7 +595,7 @@
 	<div class="modal-dialog modal-lg container-pdf" role="document">
 		<div class="modal-content container-pdf">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Análisis Comercial y Segmentación de Clientes para el Mercado</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Análisis Comercial y Segmentación del Mercado Inmobiliario entre CDMX y Bogotá</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -654,15 +604,24 @@
 				<div class="container pdf">
 					<div class="row ">
 						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
-							<iframe src="" width="100%" height="500px"></iframe>
+							<iframe src="https://drive.google.com/file/d/1w8PukQZbNjLbG6VeIb1-IkYP38lxMrPR/preview?usp=sharing" width="100%" height="500px"></iframe>
 			
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>MySQL</li>
-							<li>Python</li>
-							<li>Power BI</li>
-							<p class="documentation">Documentation: <a href="" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<ul>
+								<li>MySQL</li>
+								<li>Python</li>
+								<li>Power BI</li>
+							</ul>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1w8PukQZbNjLbG6VeIb1-IkYP38lxMrPR/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<p>Documentation:</p> 
+							<ul>
+								<li><a href="https://pandas.pydata.org/docs/reference/frame.html" target="_blank" rel="noopener noreferrer">Pandas</a></li>
+								<li><a href="https://numpy.org/doc/" target="_blank" rel="noopener noreferrer">NumPy</a></li>
+								<li><a href="https://seaborn.pydata.org/" target="_blank" rel="noopener noreferrer">Seaborn</a></li>
+								<li><a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">Matplotlib</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -678,7 +637,7 @@
 	<div class="modal-dialog modal-lg container-pdf" role="document">
 		<div class="modal-content container-pdf">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Análisis Financiero y Comercial para RappiPlus (H1 2025)</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Análisis de Rentabilidad y Comportamiento de Clientes para RappiPlus (H1 2025)</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -687,15 +646,24 @@
 				<div class="container pdf">
 					<div class="row ">
 						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
-							<iframe src="" width="100%" height="500px"></iframe>
+							<iframe src="https://drive.google.com/file/d/1xEKbvylJJkikilZCV0_8TcWrAibFmXmU/preview?usp=sharing" width="100%" height="500px"></iframe>
 			
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>MySQL</li>
-							<li>Python</li>
-							<li>Power BI</li>
-							<p class="documentation">Documentation: <a href="" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<ul>
+								<li>MySQL</li>
+								<li>Python</li>
+								<li>Power BI</li>
+							</ul>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1xEKbvylJJkikilZCV0_8TcWrAibFmXmU/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<p>Documentation:</p> 
+							<ul>
+								<li><a href="https://pandas.pydata.org/docs/reference/frame.html" target="_blank" rel="noopener noreferrer">Pandas</a></li>
+								<li><a href="https://numpy.org/doc/" target="_blank" rel="noopener noreferrer">NumPy</a></li>
+								<li><a href="https://seaborn.pydata.org/" target="_blank" rel="noopener noreferrer">Seaborn</a></li>
+								<li><a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">Matplotlib</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -708,7 +676,7 @@
 </div>
 
 
-<div class="modal fade bd-example-modal-lg " id="lms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-lg " id="urban-mobility" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg container-pdf" role="document">
 		<div class="modal-content container-pdf">
 			<div class="modal-header">
@@ -721,14 +689,23 @@
 				<div class="container pdf">
 					<div class="row ">
 						<div class="col-sm-8 "> <!-- this column affects the size of the pdf -->
-							<iframe src="https://drive.google.com/file/d/1c3x_-nwEv_1dgbvI2LeO-caOny9KkttE/preview?usp=sharing" width="100%" height="500px"></iframe>
+							<iframe src="https://drive.google.com/file/d/1LL1iA2Db-f2_iQxyUDWi_sgqgOK5akH3/preview?usp=sharing" width="100%" height="500px"></iframe>
 			
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>MySQL</li>
-							<li>Python</li>
-							<p class="documentation">Documentation: <a href="https://drive.google.com/file/d/1c3x_-nwEv_1dgbvI2LeO-caOny9KkttE" target="_blank" rel="noopener noreferrer">Google Drive</a></p>
+							<ul>
+								<li>MySQL</li>
+								<li>Python</li>
+							</ul>
+							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1c3x_-nwEv_1dgbvI2LeO-caOny9KkttE" target="_blank">Google Drive</a></p>
+							<p>Documentation:</p> 
+							<ul>
+								<li><a href="https://pandas.pydata.org/docs/reference/frame.html" target="_blank" rel="noopener noreferrer">Pandas</a></li>
+								<li><a href="https://numpy.org/doc/" target="_blank" rel="noopener noreferrer">NumPy</a></li>
+								<li><a href="https://seaborn.pydata.org/" target="_blank" rel="noopener noreferrer">Seaborn</a></li>
+								<li><a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">Matplotlib</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -758,12 +735,16 @@
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>New Relic</li>
-							<li>K6.io test</li>
+							<ul>
+								<li>New Relic</li>
+								<li>K6.io test</li>
+							</ul>
 							<p class="documentation">Notes: <a href="https://drive.google.com/file/d/1IXrlJAKJO3WDnAHtCsw481NFGxeW13jo/preview?usp=sharing" target="_blank">Google Drive</a></p>
 							<p>Documentation:</p> 
-							<li><a href="https://docs.newrelic.com/introduction-apm/" target="_blank" rel="noopener noreferrer">newrelic.com</a></li>
-							<li><a href="https://grafana.com/docs/k6/latest/using-k6/" target="_blank" rel="noopener noreferrer">k6.io</a></li>
+							<ul>
+								<li><a href="https://docs.newrelic.com/docs/apm/" target="_blank" rel="noopener noreferrer">newrelic.com</a></li>
+								<li><a href="https://grafana.com/docs/k6/latest/using-k6/" target="_blank" rel="noopener noreferrer">k6.io</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -793,10 +774,12 @@
 						</div>
 						<div class="col-sm-4"> <!-- this column affects the size of the pdf -->
 							<h3>Tools used</h3>
-							<li>Bootstrap</li>
-							<li>JavaScript</li>
-							<li>CSS</li>
-							<li>Firebase</li>
+							<ul>
+								<li>Bootstrap</li>
+								<li>JavaScript</li>
+								<li>CSS</li>
+								<li>Firebase</li>
+							</ul>
 							<p class="documentation">Documentation: <a href="https://github.com/Gerardo-Soto/snapMemories" target="_blank">GitHub</a></p>
 							<a href="https://gerardo-soto.github.io/snapMemories/profile/" class="social-media" target="_blank"><button class="btn btn-primary">Go to project</button></a>
 						</div>
