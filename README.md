@@ -1,5 +1,3 @@
-# Gerardo-Soto.github.io
-# This repository is to share my projects that I have developed as a programmer and computer systems engineer.
 # Hi, I'm Gerardo Soto 👋
 
 **Systems Engineer | Data Analyst | Business Intelligence | AWS Cloud | Backend**
